@@ -1,5 +1,5 @@
-﻿using CoreWebAPI.Context;
-using CoreWebAPI.Entities.DTOs;
+﻿using LMSAPI.Context;
+using LMSAPI.Entities.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

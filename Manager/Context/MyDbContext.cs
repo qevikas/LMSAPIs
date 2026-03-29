@@ -1,7 +1,7 @@
-﻿using CoreWebAPI.Entities;
+﻿using LMSAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CoreWebAPI.Context
+namespace LMSAPI.Context
 {
     public class MyDbContext: DbContext
     {

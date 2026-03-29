@@ -1,4 +1,4 @@
-using CoreWebAPI.Context;
+using LMSAPI.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

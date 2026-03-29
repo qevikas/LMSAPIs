@@ -1,4 +1,4 @@
-﻿namespace CoreWebAPI.Entities.DTOs
+﻿namespace LMSAPI.Entities.DTOs
 {
     public class MainMenuDto
     {

@@ -1,4 +1,4 @@
-﻿namespace CoreWebAPI.Entities
+﻿namespace LMSAPI.Entities
 {
     public class MainMenu: BaseEntity
     {
