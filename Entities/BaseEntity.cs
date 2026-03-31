@@ -1,4 +1,4 @@
-﻿namespace LMSAPI.Entities
+﻿namespace CoreWebAPI.Entities
 {
     public class BaseEntity
     {

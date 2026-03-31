@@ -1,7 +1,7 @@
-﻿using LMSAPI.Entities;
+﻿using CoreWebAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace LMSAPI.Context
+namespace CoreWebAPI.Context
 {
     public class MyDbContext: DbContext
     {
@@ -9,6 +9,7 @@ namespace LMSAPI.Context
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }
 
         public DbSet<MainMenu> MainMenus { get; set; }
+        public DbSet<SubMenu> SubMenus { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
